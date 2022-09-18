@@ -4,7 +4,7 @@ import 'package:netflix/core/colors/colors.dart';
 import 'package:netflix/presentation/main_page/widgets/screen_main_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MyApp());,
 }
 
 class MyApp extends StatelessWidget {

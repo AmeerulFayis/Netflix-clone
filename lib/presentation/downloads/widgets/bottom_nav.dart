@@ -21,6 +21,8 @@ class BottomNavigationWidget extends StatelessWidget {
           unselectedItemColor: Colors.grey,
           selectedIconTheme: const IconThemeData(color: Colors.white),
           unselectedIconTheme: const IconThemeData(color: Colors.grey),
+          selectedFontSize: 12.0,
+          unselectedFontSize: 13.0,
           items: const [
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
             BottomNavigationBarItem(

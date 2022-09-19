@@ -1,10 +1,14 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:netflix/core/colors/colors.dart';
+import 'package:netflix/http_class.dart';
 import 'package:netflix/presentation/main_page/widgets/screen_main_page.dart';
 
 void main() {
-  runApp(const MyApp());,
+  HttpOverrides.global = MyHttpOverrides();
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

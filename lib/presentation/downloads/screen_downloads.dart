@@ -8,9 +8,9 @@ import 'package:netflix/presentation/widgets/app_bar_widget.dart';
 class ScreenDownloads extends StatelessWidget {
   ScreenDownloads({Key? key}) : super(key: key);
   final List imageList = [
-    "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h32gl4a3QxQWNiNaR4Fc1uvLBkV.jpg",
-    "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/iRV0IB5xQeOymuGGUBarTecQVAl.jpg",
-    "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wE0I6efAW4cDDmZQWtwZMOW44EJ.jpg",
+    "http://www.themoviedb.org/t/p/w600_and_h900_bestv2/h32gl4a3QxQWNiNaR4Fc1uvLBkV.jpg",
+    "http://www.themoviedb.org/t/p/w600_and_h900_bestv2/2mxnDbKCoR1M9e5szzc6Ku3Nfmv.jpg",
+    "http://www.themoviedb.org/t/p/w600_and_h900_bestv2/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg",
   ];
 
   @override
